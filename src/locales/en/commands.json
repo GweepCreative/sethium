@@ -1,0 +1,280 @@
+{
+    "achievements": {
+        "title": "Achievements",
+        "description": "View your achievements and progress.",
+        "progress": "🎉 Congratulations! You've reached level {{level}} ({{details}}) at achievement {{achievement}}!"
+    },
+    "daily": {
+        "claimed": "You have received $seth **{{reward}}** as your daily reward.",
+        "claimedPremium": "You have received $seth **{{reward}}** and a $classic Classic Box as your daily reward."
+    },
+    "hourly": {
+        "claimed": "You have received $seth **{{reward}}** as your hourly reward."
+    },
+    "inventory": {
+        "title": "Inventory",
+        "select": "Select a category",
+        "selectToView": "Select a category to view items.",
+        "viewYour": "View your {{category}}",
+        "items": "Items",
+        "loots": "Loots",
+        "tools": "Tools",
+        "shopItems": "Shop Items"
+    },
+    "jobs": {
+        "title": "Jobs",
+        "description": "Choose a job to work",
+        "select": "Select a job"
+    },
+    "market": {
+        "yourListings": "Your Listings",
+        "listingBuy": "Listing - Are you sure you want to buy this?",
+        "totalToPay": "Total to be paid",
+        "buy": "Buy for {{price}}",
+        "update": "Update Listing",
+        "enterPrice": "Enter the price",
+        "enterAmount": "Enter the amount",
+        "added": "Successfully added {{amount}} $itemEmoji {{item}} to the market for $seth {{price}} each",
+        "removed": "Successfully removed the listing",
+        "title": "Market Listings - Page {{page}} ({{current}}/{{total}})",
+        "listing": "Price: $seth {{price}} - Amount: {{amount}} - Seller: <@{{seller}}>",
+        "bought": "You have successfully bought the listing.",
+        "soldButton": "Sold Out",
+        "sold": {
+            "title": "Listing Sold",
+            "description": "Your listing detailed below has been sold.",
+            "part": "Part of your listing detailed below has been sold."
+        },
+        "updated": "Successfully updated the listing"
+    },
+    "status": {
+        "title": "Your Job Status"
+    },
+    "wallet": {
+        "title": "Your Wallet",
+        "empty": "No transactions found.",
+        "deposited": "📥 $time you $seth **{{amount}}** deposited into the account",
+        "withdrew": "📤 $time you $seth **{{amount}}** withdrawn from the account",
+        "sent": "🔄 $time you sent $seth **{{amount}}** to {{address}}",
+        "received": "🔁 $time you received $seth **{{amount}}** from {{address}}",
+        "actions": {
+            "deposited": "You deposited $seth **{{amount}}** to your bank.",
+            "withdrew": "You withdrawn $seth **{{amount}}** from your bank.",
+            "sent": "You sent $seth **{{amount}}** to {{address}}.",
+            "received": "You received $seth **{{amount}}** from {{address}}."
+        }
+    },
+    "fishing": {
+        "fishing": "<:baliktut:1214285647867805747> Fishing",
+        "waiting": "You wait for the fish to come...",
+        "appeared": "There's a fish on the hook! Click the button with the fish to catch it.",
+        "disappeared": "The fish got away. Faster next time!",
+        "youCaught": "You have caught a $fish!",
+        "youMissed": "You missed the fish!"
+    },
+    "mining": {
+        "mining": "<:madenkaz:1084083577106477107> Mining",
+        "selectARock": "Select a rock to mine",
+        "youFound": "You found a $ore!"
+    },
+    "lumberjacking": {
+        "lumberjacking": "<:odunkir:1132368619448311868> Lumberjacking",
+        "selectATree": "ℹ️ Select a tree to cut",
+        "cannotFindTree": "We couldn't find the tree you were trying to chop down.",
+        "youChoppedDown": "You got a $tree!"
+    },
+    "produce": {
+        "produce": "Produce Items",
+        "selectTheItem": "Select the item to produce",
+        "produced": "You have successfully produced the item. Now you have {{amount}} {{itemTitle}}."
+    },
+    "butcher": {
+        "butcherAnimal": "Select an animal to butcher",
+        "viewRefrigerator": "View refrigerator",
+        "availableAnimals": "Available animals",
+        "spaceLeft": "{{total}} out of {{capacity}} spaces filled."
+    },
+    "farmer": {
+        "farmer": "Farmer",
+        "nearestVegetableGrow": "Nearest vegetable grow <t:{{time}}:R>",
+        "selectVegetable": "Select a vegetable to plant"
+    },
+    "analysis": {
+        "analysis": "Analysis",
+        "nodeUptime": "NodeJS Uptime",
+        "clientUptime": "Client Uptime",
+        "websocket": "Websocket",
+        "shard": "Shard",
+        "ram": "RAM Usage",
+        "platform": "Platform",
+        "cores": "CPU Cores",
+        "nodeVersion": "NodeJS Version",
+        "discordJSVersion": "DiscordJS Version"
+    },
+    "bet": {
+        "title": "Make a bet",
+        "description": "You bet $seth {{amount}} and ...",
+        "win": "You bet $seth {{amount}} and won $seth {{reward}}",
+        "lose": "You bet $seth {{amount}} and lost"
+    },
+    "blackjack": {
+        "gameInProgress": "🎲 ~ game in progress",
+        "gameWon": "🎲 ~ You won {{amount}}",
+        "gameLost": "🎲 ~ You lost {{amount}}",
+        "gameBust": "🎲 ~ You both bust",
+        "gameTie": "🎲 ~ You tied",
+        "header": "{{username}}, you bet {{amount}} to play blackjack"
+    },
+    "dice": {
+        "title": "Rolling a Dice",
+        "description": "Choose a die to bet $seth {{amount}} on it",
+        "rollingTitle": "Rolling a Dice",
+        "rollingDescription": "You bet $seth {{amount}} on $dice and rolling a dice, please wait: $rolling",
+        "win": "You bet $seth {{amount}} on $dice and won $seth {{reward}}: $rolled",
+        "lose": "You bet $seth {{amount}} on $dice and lost: $rolled"
+    },
+    "guess": {
+        "title": "The Guessing Game",
+        "description": "Select a guess",
+        "win": "You entered the guess with a total of $seth {{amount}}, you chose $selection as your guess and you won $seth {{reward}}.",
+        "lose": "You entered the guess with a total of $seth {{amount}}, you chose $selection as your guess and unfortunately you lost.",
+        "youWon": "You won",
+        "youLost": "You lost"
+    },
+    "luck": {
+        "success": "You have wished $luck {{count}} luck to {{user}} successfully. Now they have $luck {{luck}} luck point.",
+        "wishedYourself": "You have wished $luck {{count}} luck to yourself. Now you have $luck {{luck}} luck point."
+    },
+    "slots": {
+        "bet": "You bet $seth **{{amount}}** on slot",
+        "win": "and you won $seth {{reward}}",
+        "lose": "and you lost"
+    },
+    "rank": {
+        "noXP": "Before you can rank up, you need to gain some experience points."
+    },
+    "shop": {
+        "shop": "Shop",
+        "success": "You have successfully purchased {{amount}} $emoji **{{item}}** for $seth **{{price}}**",
+        "opening": "Opening {{amount}} {{item}}...",
+        "opened": "You opened {{amount}} {{item}}. You got **{{rewards}}**"
+    },
+    "partner": {
+        "upgraded": "Your partnership has been upgraded to level {{level}}",
+        "upgradedBy": "Your partnership has been upgraded by $rose {{amount}} roses.",
+        "requestSent": "Your partnership request has been sent.",
+        "recievedRequest": "You have recieved a partnership request from {{user}} ({{tag}}). You can accept it by using the button below.",
+        "accept": "Accept Partnership",
+        "decline": "Decline Partnership",
+        "accepted": "Your partnership request to <@{{user}}> ({{tag}}) has been accepted.",
+        "success": "You have successfully partnered with <@{{user}}> ({{tag}}).",
+        "declined": "You have declined the partnership request from <@{{user}}> ({{tag}}).",
+        "partneredWith": "You are partnered with <@{{user}}> ({{tag}}).",
+        "infussicientBalance": "Your partner storage doesn't have enough balance to complete the transaction.",
+        "actions": {
+            "deposited": "You have successfully deposited $seth **{{amount}}** to your partner storage.",
+            "withdrew": "You have successfully withdrawn $seth **{{amount}}** from your partner storage."
+        },
+        "additionalFeatures": "✨ Additional Features",
+        "levels": {
+            "1": "Level 1, The `/daily` command allows you to earn extra $seth Coins.",
+            "2": "Level 2, The `/luck` command allows you to get extra $luck Luck.",
+            "3": "Level 3, increase your Stall Limit in the market by +2.",
+            "4": "Level 4, Allows you to use the Affiliate Repository."
+        },
+        "left": "You have left the partnership with <@{{user}}>."
+    },
+    "ping": {
+        "result": "Pong! 🏓\nRound-trip latency: {{round}}ms\nAPI latency: {{api}}ms"
+    },
+    "profile": {
+        "updateDescription": "Update Description",
+        "placeholder": "Enter your new description",
+        "updated": "Your description has been updated."
+    },
+    "job": {
+        "upgraded": "You have successfully upgraded your job to $job {{job}}.",
+        "selected": "You have acquired the $job {{job}} profession. Added $tool {{toolName}} to your inventory to use at the beginning. If your item breaks, you can buy a new one from the market.",
+        "ask": "Are you sure you want to choose $job {{job}}? You can't change it later."
+    },
+    "register": {
+        "title": "Before Registering",
+        "description": "Before registering, you need to accept the Terms of Service and Privacy Policy.",
+        "button": "Accept Terms",
+        "count": "{{count}} users have accepted the terms."
+    },
+    "chef": {
+        "title": "Chef",
+        "sold": "You made the food and got $seth {{price}} in return. You can get a new order in 15 minutes.",
+        "notUsable": "This order is unusable.",
+        "chair": "**Chair `{{current}}/{{total}}`**",
+        "table": "**Table `{{current}}/{{total}}`**",
+        "chairBreakAfter": "{{count}} chair will be broken after {{durability}} more orders are delivered.",
+        "tableBreakAfter": "{{count}} table will be broken after {{durability}} more orders are delivered."
+    },
+    "premium": {
+        "title": "About Premium",
+        "activeSubscription": "You have an active subscription. It will expire <t:{{time}}:R>.\n$progress",
+        "benefits": "* Having a Premium role on our support server.\n* A doubling of the maximum bet that can be placed on gamble commands.\n* Increased chances of winning at gambling.\n* Doubling of bank limits.\n* Receiving rewards on the hourly command.\n* Ability to receive an additional 1x Classical Box in the daily command.\n* Increase the number of listings you can have on the market at the same time by +5.\n* 2 times more XP gain.",
+        "benefitsTitle": "Premium Benefits",
+        "ownedBenefitsTitle": "Owned Benefits"
+    },
+    "quickSale": {
+        "selled": "You have successfully sold {{amount}} $emoji **{{item}}** for $seth **{{price}}** to the bot."
+    },
+    "tutorial": {
+        "stepTitle": "Step {{step}}",
+        "title": "Tutorial",
+        "completed": "🎉 You have completed the tutorial. You can now use the bot freely.",
+        "steps": {
+            "1": {
+                "description": "Choose a Job",
+                "command": "jobs"
+            },
+            "2": {
+                "description": "Work in your chosen job to earn $seth silvon",
+                "command": "work"
+            },
+            "3": {
+                "description": "Check your inventory to view the loot and items you have earned",
+                "command": "inventory"
+            },
+            "4": {
+                "description": "Add an item to the market to sell items",
+                "command": "listing add"
+            },
+            "5": {
+                "description": "Sell a product to bot with the quick sell command",
+                "command": "quick-sale"
+            },
+            "6": {
+                "description": "Look in your wallet to see how much $seth silvon you've earned.",
+                "command": "wallet"
+            },
+            "7": {
+                "description": "Buy an item related to your job at the market",
+                "command": "market buy"
+            }
+        }
+    },
+    "level": {
+        "advancedTo": "You've advanced to",
+        "level": "Level {{level}}",
+        "message": "🎉 Congratulations! You have leveled up and received $seth {{reward}} as a reward. "
+    },
+    "recipes": {
+        "title": "Recipes"
+    },
+    "vote": {
+        "voted": {
+            "title": "You already voted",
+            "description": "You have already voted and received your reward. After 12 hours you can vote again."
+        },
+        "vote": {
+            "title": "Vote us!",
+            "description": "[Click](https://top.gg/bot/{{id}}/vote) to vote and earn a $classic Classic Box."
+        },
+        "voteCount": "You have voted {{count}} times.",
+        "reward": "1 $classic Classic Box has been added to your account."
+    }
+}

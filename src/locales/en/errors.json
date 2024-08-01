@@ -1,0 +1,157 @@
+{
+    "general": {
+        "error": "An error occurred.",
+        "invalidSubcommand": "Invalid subcommand.",
+        "commandExecution": "Something went wrong while executing the command.",
+        "notAdmin": "You need to be an admin to use this command.",
+        "invalidAmount": "Invalid amount. Please enter a valid amount.",
+        "invalidAddress": "Invalid address. Please enter a valid address.",
+        "infussicientBalance": "You don't have enough balance to perform this action.",
+        "invalidItem": "Invalid item ID. Please check the item ID and try again.",
+        "notEnoughMoney": "You don't have enough $seth silvon to buy this item. You need {{price}}.",
+        "invalidSelection": "Invalid selection. Please select a valid one.",
+        "invalidPage": "Invalid page number. Please enter a valid page number.",
+        "invalidAction": "Invalid action. Please check the action and try again.",
+        "invalidID": "Invalid ID. Please check the ID and try again.",
+        "tooFast": "You are doing this too fast. Try <t:{{time}}:R>.",
+
+        "invalidJob": "There is no job with this name. Please check the job name and try again.",
+        "noItem": "No items on the database.",
+
+        "cooldown": "You can use this command again <t:{{time}}:R>.",
+
+        "excessedLimit": "You are trying to use this command with more than the amount you can use. You can spend a maximum of {{limit}} at a time on this command."
+    },
+    "account": {
+        "noAccount": "You do not have an account on the bot. You need to register to use this command.",
+        "noJob": "You don't have a job yet. You can choose one by using the `/jobs` command.",
+        "noNextJob": "You already have the highest job in this category.",
+        "notYourAccount": "You can't perform this action on someone else's account.",
+        "alreadyHasJob": "You already have a job, you can't change/choose a new one.",
+        "notYourJob": "You can't do this job. Try `/work {{job}}` instead."
+    },
+    "achievements": {
+        "noAchievements": "No achievements found."
+    },
+    "inventory": {
+        "noLoot": "You don't have enough loot to view."
+    },
+    "daily": {
+        "alreadyClaimed": "You have already claimed your daily reward today. Try <t:{{time}}:R>."
+    },
+    "hourly": {
+        "alreadyClaimed": "You have already claimed your hourly reward for this hour. Try <t:{{time}}:R>.",
+        "notPremium": "You need to be a premium user to claim hourly rewards."
+    },
+    "market": {
+        "noActiveListings": "You don't have any active listings",
+        "noListings": "No listings found",
+        "cannotFindItem": "Couldn't find the item you're looking for",
+        "invalidID": "Invalid listing ID",
+        "cannotFindListing": "Couldn't find the listing you're looking for",
+        "cannotBuyYourself": "You can't buy your own listing",
+        "invalidItem": "Invalid item",
+        "invalidPrice": "Invalid price",
+        "priceTooLow": "You can't sell this item for less than $seth {{price}}",
+        "priceTooHigh": "You can't sell this item for more than $seth {{price}}",
+        "invalidAmount": "Invalid amount",
+        "thisItemIsNotSellable": "This item is not sellable",
+        "youDontHaveEnough": "You don't have enough $itemEmoji {{item}}, you only have {{amount}}",
+        "cantHaveMoreListingsThan": "You can't have more than {{count}} active listings",
+        "isNotYours": "This listing is not yours",
+        "invalidListing": "Invalid listing",
+        "cannotBiggerThanAmount": "You can't set the amount bigger than the remaining amount which is {{remaining}}.",
+        "anotherBlacksmithsTool": "You cannot buy a blacksmith product from another blacksmith.",
+        "notABlacksmith": "You need to be a blacksmith to sell this item."
+    },
+    "produce": {
+        "notTopTier": "You can't produce items. Try `/work {{job}}` instead.",
+        "noItemsToProduce": "There are no items to produce.",
+        "cannotFindItem": "The item you are trying to produce does not exist.",
+        "cantProduce": "You can't produce this item.",
+        "missingIngredients": "You don't have enough ingredients to produce this item: {{missingIngredients}}"
+    },
+    "luck": {
+        "notRegistered": "The user you want to wish luck is not registered."
+    },
+    "shop": {
+        "error": "An error occurred while purchasing the item. Please try again later.",
+        "cantOpen": "An error occurred while opening the box. Please try again later.",
+        "notEnoughAmount": "You don't have enough $itemEmoji {{item}} to use {{amount}}.",
+        "invalidJob": "You have to be a $emoji {{job}} to get this tool.",
+        "alreadyBought": "You have already bought this tool."
+    },
+    "partner": {
+        "notPartnered": "You are not currently partnered with anyone.",
+        "notEnoughRoses": "You do not have enough roses to upgrade your partnership.",
+        "maxLevel": "You have reached the maximum partnership level.",
+        "invalidUser": "You need to provide a user to send the request to.",
+        "cannotSendToSelf": "You cannot send a partnership request to yourself.",
+        "alreadyPartnered": "You are already partnered with someone.",
+        "userNoWallet": "The user you are trying to send the request to does not have a account on the bot.",
+        "userAlreadyPartnered": "The user you are trying to send the request to is already partnered with someone.",
+        "alreadySentRequest": "You have already sent a partnership request to this user.",
+        "errorWhileSending": "An error occured while sending \"new partner request\" message to the user. But your request has been sent.",
+        "noRequest": "You have not recieved a partnership request from this user."
+    },
+    "profile": {
+        "noAccount": "This user does not have an account on the bot.",
+        "mustBeLatin": "Description must be in Latin characters.",
+        "mustBeShort": "Description must be shorter than 32 characters."
+    },
+    "blackjack": {
+        "noAvailableGame": "You don't have any active games.",
+        "somethingIsWrong": "🎲 ~ Something is wrong"
+    },
+    "butcher": {
+        "invalidJob": "You need to be a butcher to use this command.",
+        "invalidAnimal": "Invalid animal. Please check the animal name and try again.",
+        "youNeedToWait": "You must wait for the next product to be ready for order: <t:{{time}}:R>",
+        "refridgeratorAnimalLimit": "You can't store more than {{limit}} animals in the refridgerator.",
+        "invalidID": "Invalid refrigerator ID.",
+        "cannotFindThisAnimal": "You can't butcher this animal.",
+        "youDontHaveEnough": "You don't have enough of this animal to butcher.",
+        "notEnoughSpace": "You don't have enough space on your refrigerator.",
+        "cannotFoundItem": "Couldn't find the animal you were trying to butcher."
+    },
+    "dice": {
+        "invalidSelection": "Invalid selection. Please select a valid one."
+    },
+    "farmer": {
+        "cannotFindThisVegetable": "Couldn't find the vegetable you're looking for.",
+        "invalidZoneIndex": "Invalid zone index. Please check the zone index and try again.",
+        "alreadyPlanted": "You have already planted this zone.",
+        "zoneNotReady": "This zone is not ready yet. Please check if the zone is ready and try again.",
+        "theresNothingToHarvest": "There's nothing to harvest in this zone."
+    },
+    "fishing": {
+        "cannotFindTheFish": "We couldn't find the fish you were trying to catch.",
+        "ended": "This fishing session has ended."
+    },
+    "job": {
+        "innuficientWorkExperience":  "You don't have enough working experience to upgrade your job. Try work {{work}} times more.",
+        "alreadyHasJob": "You already have a job, you can't change/choose a new one.",
+        "jobNotFound": "Couldn't find the job you were looking for.",
+
+        "youNeedToUse": "To use this command you need one {{item}}."
+    },
+    "chef": {
+        "missingIngredients": "You need {{amount}} $itemEmoji {{item}} to create a shop.",
+        "invalidOrder": "Invalid order.",
+        "missingChairs": "You're not in a status to meet customers right now. You need at least {{amount}} chair to reopen.",
+        "missingTables": "You're not in a status to meet customers right now. You need at least {{amount}} table to reopen."
+    },
+    "wallet": {
+        "cannotSendToYourself": "You can't send $seth silvon to yourself.",
+        "notEnoughMoneyOnBank": "You don't have enough $seth silvon in your bank account.",
+        "cannotFoundTarget": "Target account not found.",
+        "insufficientTargetLimit": "Target account's limit is insufficient.",
+        "insufficientLimit": "Your limit is insufficient."
+    },
+    "rank": {
+        "noXP": "Before using this command, you need to gain some experience points."
+    },
+    "recipes": {
+        "noRecipes": "No recipes/item found."
+    }
+}

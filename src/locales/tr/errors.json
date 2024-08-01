@@ -1,0 +1,157 @@
+{
+    "general": {
+        "error": "Bir hata oluştu.",
+        "invalidSubcommand": "Geçersiz alt komut.",
+        "commandExecution": "Komut yürütülürken bir şeyler yanlış gitti.",
+        "notAdmin": "Bu komutu kullanmak için yönetici olmanız gerekir.",
+        "invalidAmount": "Geçersiz tutar. Lütfen geçerli bir tutar girin.",
+        "invalidAddress": "Geçersiz adres. Lütfen geçerli bir adres girin.",
+        "infussicientBalance": "Bu eylemi gerçekleştirmek için yeterli $seth silvon sahibi değilsiniz.",
+        "invalidItem": "Geçersiz ürün kimliği. Lütfen ürün kimliğini kontrol edin ve tekrar deneyin.",
+        "notEnoughMoney": "Bu ürünü satın almak için yeterli $seth silvon sahibi değilsiniz. Gerekli olan miktar: {{price}}",
+        "invalidSelection": "Geçersiz seçim. Lütfen geçerli bir tane seçin.",
+        "invalidPage": "Geçersiz sayfa numarası. Lütfen geçerli bir sayfa numarası girin.",
+        "invalidAction": "Geçersiz eylem. Lütfen eylemi kontrol edin ve tekrar deneyin.",
+        "invalidID": "Geçersiz kimlik. Lütfen kimliği kontrol edin ve tekrar deneyin.",
+        "tooFast": "Bunu çok hızlı yapıyorsun. <t:{{time}}:R> tekrar dene.",
+
+        "invalidJob": "Bu isimde bir iş yok. Lütfen iş adını kontrol edin ve tekrar deneyin.",
+        "noItem": "Veritabanında eşya yok.",
+
+        "cooldown": "Bu komutu tekrar <t:{{time}}:R> kullanabilirsin.",
+
+        "excessedLimit": "Bu komutu kullanabileceğiniz miktardan daha fazla kullanmaya çalışıyorsunuz. Bu komut için bir seferde en fazla {{limit}} harcayabilirsiniz."
+    },
+    "account": {
+        "noAccount": "Bot üzerinde bir hesabınız yok. Bu komutu kullanmak için kayıt olmanız gerekmektedir.",
+        "noJob": "Henüz bir işiniz yok. `/meslekler` komutunu kullanarak bir iş seçebilirsiniz.",
+        "noNextJob": "Bu kategorideki en yüksek işe zaten sahipsiniz.",
+        "notYourAccount": "Bu işlemi başka birinin hesabında gerçekleştiremezsiniz.",
+        "alreadyHasJob": "Zaten bir işiniz var, yeni bir iş değiştiremezsiniz/seçemezsiniz.",
+        "notYourJob": "Bu işi yapamazsınız. Bunun yerine `/work {{job}}` deneyin."
+    },
+    "daily": {
+        "alreadyClaimed": "Bugünkü günlük ödülünüzü çoktan aldınız. <t:{{time}}:R> deneyin."
+    },
+    "hourly": {
+        "alreadyClaimed": "Zaten saatlik ödülünüzü aldınız. <t:{{time}}:R> deneyin.",
+        "notPremium": "Bu komutu kullanabilmek için premium üye olmanız gerekmektedir."
+    },
+    "achievements": {
+        "noAchievements": "Hiçbir başarım bulunamadı."
+    },
+    "inventory": {
+        "noLoot": "Görüntülemek için yeterli ganimetiniz yok."
+    },
+    "market": {
+        "noActiveListings": "Aktif herhangi bir ilanınız yok.",
+        "noListings": "Hiçbir ilan bulunamadı.",
+        "cannotFindItem": "Aradığınız ürünü bulamadık.",
+        "invalidID": "Geçersiz ilan kimliği",
+        "cannotFindListing": "Aradığınız ilanı bulamadık.",
+        "cannotBuyYourself": "Kendi ilanınızı satın alamazsınız.",
+        "invalidItem": "Geçersiz ürün.",
+        "invalidPrice": "Geçersiz fiyat.",
+        "priceTooLow": "Bu ürünün en alt fiyatı $seth {{price}} olarak belirlenmiştir.",
+        "priceTooHigh": "Bu ürünün en üst fiyatı $seth {{price}} olarak belirlenmiştir.",
+        "invalidAmount": "Geçeriz miktar.",
+        "thisItemIsNotSellable": "Bu ürün satılamaz.",
+        "youDontHaveEnough": "Yeterli miktarda $itemEmoji {{item}} sahibi değilsiniz, sadece {{amount}} adete sahipsiniz.",
+        "cantHaveMoreListingsThan": "{{count}} adetten fazla aktif ilanınız olamaz.",
+        "isNotYours": "Bu ilan sizin değil.",
+        "invalidListing": "Geçersiz ilan.",
+        "cannotBiggerThanAmount": "Kalan miktar olan {{remaining}} adetten daha büyük bir miktar belirleyemezsiniz.",
+        "anotherBlacksmithsTool": "Başka bir demirciden demirci ürünü satın alamazsınız.",
+        "notABlacksmith": "Bu ürünü satabilmek için demirci olmanız gerekir."
+    },
+    "produce": {
+        "notTopTier": "Ürün üretemezsiniz. Bunun yerine `/work {{job}}` deneyin.",
+        "noItemsToProduce": "Üretilecek ürün yok.",
+        "cannotFindItem": "Üretmeye çalıştığınız ürün mevcut değil.",
+        "cantProduce": "Bu ürünü üretemezsiniz.",
+        "missingIngredients": "Bu ürünü üretmek için yeterli malzemeniz yok: {{missingIngredients}}"
+    },
+    "luck": {
+        "notRegistered": "Şans dilemek istediğiniz kullanıcı kayıtlı değil."
+    },
+    "shop": {
+        "error": "Ürünü satın alırken bir hata oluştu. Lütfen daha sonra tekrar deneyin.",
+        "cantOpen": "Kutu açılırken bir hata oluştu.",
+        "notEnoughAmount": "{{amount}} adet $itemEmoji {{item}} kullanılabilecek kadar yeterli eşyanız yok.",
+        "invalidJob": "Bu aleti alabilmek için $emoji {{job}} olmanız lazım.",
+        "alreadyBought": "Zaten bu alete sahipsiniz."
+    },
+    "partner": {
+        "notPartnered": "Şu anda kimseyle ortak değilsiniz.",
+        "notEnoughRoses": "Ortaklığınızı yükseltmek için yeterli gülünüz yok.",
+        "maxLevel": "Maksimum ortaklık seviyesine ulaştınız.",
+        "invalidUser": "İsteği göndermek için bir kullanıcı sağlamanız gerekir.",
+        "cannotSendToSelf": "Kendinize bir ortaklık talebi gönderemezsiniz.",
+        "alreadyPartnered": "Zaten biriyle ortaksınız.",
+        "userNoWallet": "İstek göndermeye çalıştığınız kullanıcının bot üzerinde bir hesabı yok.",
+        "userAlreadyPartnered": "İstek göndermeye çalıştığınız kullanıcı zaten biriyle ortak.",
+        "alreadySentRequest": "Bu kullanıcıya zaten bir ortaklık isteği gönderdiniz.",
+        "errorWhileSending": "Kullanıcıya \"yeni ortak isteği\" mesajı gönderilirken bir hata oluştu. Ancak isteğiniz gönderildi.",
+        "noRequest": "Bu kullanıcıdan bir ortaklık talebi almadınız."
+    },
+    "profile": {
+        "noAccount": "Bu kullanıcının bot üzerinde bir hesabı yok.",
+        "mustBeLatin": "Açıklama Latin karakterlerle yazılmalıdır.",
+        "mustBeShort": "Açıklama 32 karakterden kısa olmalıdır."
+    },
+    "blackjack": {
+        "noAvailableGame": "Hiç aktif oyununuz yok.",
+        "somethingIsWrong": "🎲 ~ Bir sorun var."
+    },
+    "butcher": {
+        "invalidJob": "Bu komutu kullanmak için kasap olmanız gerekir.",
+        "invalidAnimal": "Geçersiz hayvan. Lütfen hayvan adını kontrol edin ve tekrar deneyin.",
+        "youNeedToWait": "Bir sonraki ürünün siparişe hazır olmasını beklemelisiniz: <t:{{time}}:R>",
+        "refridgeratorAnimalLimit": "Buzdolabında {{limit}} hayvandan fazlasını saklayamazsınız.",
+        "invalidID": "Geçersiz buzdolabı kimliği.",
+        "cannotFindThisAnimal": "Bu hayvanı kesemezsin.",
+        "youDontHaveEnough": "Bu hayvandan kesmek için yeterince yok.",
+        "notEnoughSpace": "Buzdolabınızda yeterince yer yok.",
+        "cannotFoundItem": "Kesmeye çalıştığın hayvanı bulamadım."
+    },
+    "dice": {
+        "invalidSelection": "Geçersiz seçim. Lütfen geçerli bir tane seçin."
+    },
+    "farmer": {
+        "cannotFindThisVegetable": "Aradığınız sebzeyi bulamadık.",
+        "invalidZoneIndex": "Geçersiz bölge indeksi. Lütfen bölge indeksini kontrol edin ve tekrar deneyin.",
+        "alreadyPlanted": "Bu bölgeyi zaten ektiniz.",
+        "zoneNotReady": "Bu bölge henüz hazır değil. Lütfen bölgenin hazır olup olmadığını kontrol edin ve tekrar deneyin.",
+        "theresNothingToHarvest": "Bu bölgede hasat edilecek bir şey yok."
+    },
+    "fishing": {
+        "cannotFindTheFish": "Yakalamaya çalıştığınız balığı bulamadık.",
+        "ended": "Bu balık tutma oturumu sona ermiştir."
+    },
+    "job": {
+        "innuficientWorkExperience":  "İşinizi yükseltmek için yeterli çalışma deneyimine sahip değilsiniz. {{work}} kere daha fazla çalışmayı deneyin.",
+        "alreadyHasJob": "Zaten bir işiniz var, yeni bir iş değiştiremezsiniz/seçemezsiniz.",
+        "jobNotFound": "Aradığınız işi bulamadık.",
+
+        "youNeedToUse": "Bu komutu kullanmak için ihtiyacınız olan $itemEmoji {{item}} adlı eşyaya sahip değilsiniz."
+    },
+    "chef": {
+        "missingIngredients": "Bir dükkan oluşturmak için {{amount}} $itemEmoji {{item}} ihtiyacınız var.",
+        "invalidOrder": "Geçersiz sipariş.",
+        "missingChairs": "Şu anda müşterilere hizmet verebilecek durumda değilsiniz. Yeniden açmak için en az {{amount}} sandalyeye ihtiyacınız var.",
+        "missingTables": "Şu anda müşterilere hizmet verebilecek durumda değilsiniz. Yeniden açmak için en az {{amount}} masaya ihtiyacınız var."
+    },
+    "wallet": {
+        "cannotSendToYourself": "Kendinize $seth silvon gönderemezsiniz.",
+        "notEnoughMoneyOnBank": "Banka hesabınızda yeterli $seth silvon yok.",
+        "cannotFoundTarget": "Hedef hesap bulunamadı.",
+        "insufficientTargetLimit": "Hedef hesabın limiti yetersiz.",
+        "insufficientLimit": "Limitiniz yetersiz."
+    },
+    "rank": {
+        "noXP": "Bu komutu kullanmadan önce biraz deneyim puanı kazanmalısınız."
+    },
+    "recipes": {
+        "noRecipes": "Tarif/Eşya bulunamadı."
+    }
+}

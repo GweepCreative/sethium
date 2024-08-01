@@ -1,0 +1,280 @@
+{
+    "achievements": {
+        "title": "Başarımlar",
+        "description": "Başarımlarınızı ve ilerlemenizi görün.",
+        "progress": "🎉 Tebrikler! **{{achievement}}** başarısında {{level}}. seviyeye ({{details}}) ulaştın!"
+    },
+    "daily": {
+        "claimed": "Günlük ödül olarak $seth **{{reward}}** aldın.",
+        "claimedPremium": "Günlük ödül olarak $seth **{{reward}}** ve 1x $classic Klasik Kutu aldın."
+    },
+    "hourly": {
+        "claimed": "Saatlik ödül olarak $seth **{{reward}}** aldın."
+    },
+    "inventory": {
+        "title": "Envanter",
+        "select": "Bir kategori seç",
+        "selectToView": "Öğeleri görüntülemek için bir kategori seç.",
+        "viewYour": "Görüntüle: {{category}}",
+        "items": "Eşyalar",
+        "loots": "Ganimetler",
+        "tools": "Aletler",
+        "shopItems": "Dükkan Eşyaları"
+    },
+    "jobs": {
+        "title": "Meslekler",
+        "description": "Çalışmaya başlamak için bir meslek seç.",
+        "select": "Meslek seç"
+    },
+    "market": {
+        "yourListings": "İlanların",
+        "listingBuy": "İlanlar - Bunu almak istiyor musun?",
+        "totalToPay": "Toplam tutar",
+        "buy": "{{price}} öde",
+        "update": "İlanı Güncelle",
+        "enterPrice": "Fiyatı girin",
+        "enterAmount": "Miktarı girin",
+        "added": "Pazara {{amount}} adet $itemEmoji {{item}}, $seth {{price}} birim fiyatla eklendi.",
+        "removed": "İlan kaldırıldı",
+        "title": "Pazar İlanları - Sayfa {{page}}/{{total}}",
+        "listing": "Fiyat: $seth {{price}} - Miktar: {{amount}} - Satıcı: <@{{seller}}>",
+        "bought": "İlanı satın aldın.",
+        "soldButton": "Satıldı",
+        "sold": {
+            "title": "İlan Satıldı",
+            "description": "Aşağıdaki ilanın satıldı.",
+            "part": "Aşağıdaki ilanının bir kısmı satıldı."
+        },
+        "updated": "İlan güncellendi"
+    },
+    "status": {
+        "title": "Meslek Durumunuz"
+    },
+    "wallet": {
+        "title": "Cüzdanınız",
+        "empty": "Hiçbir işlem bulunamadı.",
+        "deposited": "📥 $time Hesaba $seth **{{amount}}** yatırıldı.",
+        "withdrew": "📤 $time Hesaptan $seth **{{amount}}** çekildi.",
+        "sent": "🔄 $time $seth **{{amount}}** {{address}} adresine gönderildi.",
+        "received": "🔁 $time {{address}} adresinden $seth **{{amount}}** alındı.",
+        "actions": {
+            "deposited": "Bankana $seth **{{amount}}** yatırdın.",
+            "withdrew": "Bankandan $seth **{{amount}}** çektin.",
+            "sent": "{{address}} adresine $seth **{{amount}}** gönderdin.",
+            "received": "{{address}} adresinden $seth **{{amount}}** aldın."
+        }
+    },
+    "fishing": {
+        "fishing": "<:baliktut:1214285647867805747> Balıkçılık",
+        "waiting": "⌛ Balığın gelmesini bekliyorsun...",
+        "appeared": "Oltaya bir balık takıldı! Yakalamak için balığın olduğu butona tıkla.",
+        "disappeared": "Balık kaçtı. Bir dahaki sefere daha hızlı ol!",
+        "youCaught": "Bir $fish yakaladın!",
+        "youMissed": "Balığı kaçırdın!"
+    },
+    "mining": {
+        "mining": "<:madenkaz:1084083577106477107> Madencilik",
+        "selectARock": "Maden kazmak için bir kaya seç.",
+        "youFound": "Bir $ore buldun!"
+    },
+    "lumberjacking": {
+        "lumberjacking": "<:odunkir:1132368619448311868> Odunculuk",
+        "selectATree": "ℹ️ Kesmek için bir ağaç seç",
+        "cannotFindTree": "Kesmeye çalıştığınız ağacı bulamadık.",
+        "youChoppedDown": "Bir $tree elde ettin!"
+    },
+    "produce": {
+        "produce": "Ürün Üret",
+        "selectTheItem": "Üretilecek öğeyi seçin",
+        "produced": "Öğeyi başarıyla ürettiniz. Şimdi {{amount}} adet $itemEmoji {{itemTitle}} sahibisiniz."
+    },
+    "butcher": {
+        "butcherAnimal": "ℹ️ Kesmek için bir hayvan seç",
+        "viewRefrigerator": "Buzdolabını görüntüle",
+        "availableAnimals": "Mevcut Hayvanlar",
+        "spaceLeft": "ℹ️ kapasite {{capacity}/{{total}} dolu."
+    },
+    "farmer": {
+        "farmer": "Çiftçilik",
+        "nearestVegetableGrow": "<t:{{time}}:R> bir sebze büyüyecek",
+        "selectVegetable": "ℹ️ Ekilecek sebzeyi seç"
+    },
+    "analysis": {
+        "analysis": "Analiz",
+        "nodeUptime": "NodeJS Çalışma Süresi",
+        "clientUptime": "Client Çalışma Süresi",
+        "websocket": "Websocket",
+        "shard": "Shard",
+        "ram": "RAM Kullanımı",
+        "platform": "Platform",
+        "cores": "CPU Çekirdekleri",
+        "nodeVersion": "NodeJS Sürümü",
+        "discordJSVersion": "DiscordJS Sürümü"
+    },
+    "bet": {
+        "title": "Bahis yapın",
+        "description": "$seth {{amount}} bahis yaptın ve ...",
+        "win": "$seth {{amount}} bahis yaptın ve $seth {{reward}} kazandın.",
+        "lose": "$seth {{amount}} bahis yaptın ve kaybettin."
+    },
+    "blackjack": {
+        "gameInProgress": "🃏 ~ oyun devam ediyor",
+        "gameWon": "🃏 ~ {{amount}} kazandın!",
+        "gameLost": "🃏 ~ {{amount}} kaybettin!",
+        "gameBust": "🃏 ~ İki tarafta 21'i geçti!",
+        "gameTie": "🃏 ~ You tied",
+        "header": "{{username}}, blackjack oynamak için {{amount}} yatırdın"
+    },
+    "dice": {
+        "title": "Zar Yuvarlama",
+        "description": "ℹ$seth {{amount}} bahis yapmak için bir zar seç.",
+        "rollingTitle": "Zar Yuvarlanıyor",
+        "rollingDescription": "$dice üzerine $seth {{amount}} bahis yaptın ve zar dönüyor, lütfen bekleyin: $rolling",
+        "win": "$dice üzerine $seth {{amount}} bahis yaptın ve $seth {{reward}} kazandın: $rolled",
+        "lose": "$dice üzerine $seth {{amount}}  bahis yaptın ve kaybettin: $rolled"
+    },
+    "guess": {
+        "title": "Tahmin Oyunu",
+        "description": "ℹ️ Tuttuğum rakamı tahmin et",
+        "win": "Tahmine toplam $seth {{amount}} ile girdin, tahminini $selection seçtin ve $seth {{reward}} kazandın.",
+        "lose": "Tahmine toplam $seth {{amount}} ile girdin, tahminini $selection seçtin ve ne yazık ki kaybettin.",
+        "youWon": "Kazandın",
+        "youLost": "Kaybettin"
+    },
+    "luck": {
+        "success": "{{user}} kullanıcısına 🍀 {{count}}x şans diledin. Artık onun 🍀 {{luck}}x şans puanı var.",
+        "wishedYourself": "Kendine 🍀 {{count}}x şans diledin. Şu anda 🍀 {{luck}}x şansın var."
+    },
+    "slots": {
+        "bet": "Slot'a $seth **{{amount}}** bahis yaptın",
+        "win": "ve $seth {{reward}} kazandın",
+        "lose": "ve kaybettin"
+    },
+    "rank": {
+        "noXP": "Seviye atlayabilmeniz için önce deneyim puanı kazanmanız gerekir."
+    },
+    "shop": {
+        "shop": "Market",
+        "success": "$seth **{{price}}** karşılığında {{amount}}x $emoji **{{item}}** aldın.",
+        "opening": "{{amount}}x {{item}} açılıyor...",
+        "opened": "{{amount}}x {{item}} açıldı. **{{rewards}}** elde ettin."
+    },
+    "partner": {
+        "upgraded": "Ortaklığınız {{level}}. seviyeye yükseltildi",
+        "upgradedBy": "Ortaklığınız 🌹 {{amount}}x ,🌹 Gül  ile yükseltildi.",
+        "requestSent": "Ortaklık isteğin gönderildi.",
+        "recievedRequest": "<@{{user}}> kullanıcısından ({{tag}}) bir ortaklık talebi aldınız.",
+        "accept": "Kabul Et",
+        "decline": "Reddet",
+        "accepted": "<@{{user}}> kullanıcısı ({{tag}}) ortaklık talebini kabul etti.",
+        "success": "<@{{user}}> ({{tag}}) ile ortak oldun.",
+        "declined": "<@{{user}}> kullanıcısının ({{tag}}) ortaklık talebini reddettin.",
+        "partneredWith": "<@{{user}}> ({{tag}}) ile ortaksınız.",
+        "infussicientBalance": "Ortak deponuzda işlemi tamamlamak için yeterli bakiye yok.",
+        "actions": {
+            "deposited": "Ortak deponuza başarıyla $seth **{{amount}}** yatırdın.",
+            "withdrew": "Ortak deponuzdan başarıyla $seth **{{amount}}** çektin."
+        },
+        "additionalFeatures": "Ek Özellikler",
+        "levels": {
+            "1": "1. seviye, `/günlük` komutunda ekstra $seth Silvon kazanabilmeyi sağlar.",
+            "2": "2. seviye, `/şans` komutunda ekstra $luck Şans kazanabilmeyi sağlar.",
+            "3": "3. seviye, pazardaki Tezgah slotunuzu +2 arttırmayı sağlar.",
+            "4": "4. seviye, Ortaklık Deposunu kullanabilmeyi sağlar."
+        },
+        "left": "<@{{user}}> ile olan ortaklığınız sona erdi."
+    },
+    "ping": {
+        "result": "Pong! 🏓\nGidiş-Dönüş gecikmesi: {{round}}ms\nAPI gecikmesi: {{api}}ms"
+    },
+    "profile": {
+        "updateDescription": "Açıklamayı Güncelle",
+        "placeholder": "Yeni açıklamanızı girin",
+        "updated": "Açıklamanız güncellendi."
+    },
+    "job": {
+        "upgraded": "İşinizi başarıyla, $job {{job}} adlı işe yükseltildi.",
+        "selected": "$job {{job}} işini edindin. Başlangıçta kullanman için $tool {{toolName}} envanterine eklendi. Eğer eşyanın kırılırsa marketten veya pazardan yenisini satın alabilirsin.",
+        "ask": "$job {{job}} işini seçmek istediğinizden emin misiniz? Daha sonra değiştiremezsiniz."
+    },
+    "register": {
+        "title": "Kayıt Olmadan Önce",
+        "description": "Kaydolmadan önce Hizmet Şartları ve Gizlilik Politikası'nı kabul etmeniz gerekmektedir.",
+        "button": "Kuralları Kabul Et",
+        "count": "Toplam {{count}} kullanıcı kayıtlı."
+    },
+    "chef": {
+        "title": "Şef",
+        "sold": "Yaptığın yemeğin karşılığında $seth **{{price}}** aldın. Bir sonraki sipariş 15 dakika içinde gelecek.",
+        "notUsable": "Bu sipariş kullanılabilir değil.",
+        "chair": "**Sandalye `{{current}}/{{total}}`**",
+        "table": "**Masa `{{current}}/{{total}}`**",
+        "chairBreakAfter": "{{durability}} teslimat sonra {{count}} sandalye kırılacak.",
+        "tableBreakAfter": "{{durability}} teslimat sonra {{count}} masa kırılacak."
+    },
+    "premium": {
+        "title": "Premium Hakkında",
+        "activeSubscription": "<t:{{time}}:R> bitecek aktif bir aboneliğin var.\n$progress",
+        "benefits": "* Destek sunucumuzda Premium rolüne sahip olma.\n* Kumar komutlarında yatırılabilen maksimum bahisin 2 katına çıkması.\n* Kumarda kazanma şansının artması.\n* Banka limitlerinin 2 katına çıkması.\n* Saatlik komutunda ödül alabilme.\n* Günlük komutunda ek olarak 1x Klasik Kutu alabilme.\n* Pazarda aynı anda bulundurabileceğin ilan sayısını +5 arttırma.\n* 2 kat daha fazla XP elde etme.",
+        "benefitsTitle": "Premium Avantajlar",
+        "ownedBenefitsTitle": "Sahip Olduğun Avantajlar"
+    },
+    "quickSale": {
+        "selled": "{{amount}}x $emoji **{{item}}**, $seth **{{price}}** karşılığında satıldı."
+    },
+    "tutorial": {
+        "stepTitle": "Aşama {{step}}",
+        "title": "Öğretici",
+        "completed": "🎉 Öğreticiyi tamamladınız! Artık botu özgürce kullanabilirsiniz.",
+        "steps": {
+            "1": {
+                "description": "Bir meslek seç",
+                "command": "meslekler"
+            },
+            "2": {
+                "description": "$seth Silvon kazanmak için seçtiğiniz işte çalış",
+                "command": "çalış"
+            },
+            "3": {
+                "description": "Kazandığın ganimet ve eşyaları görmek için envanterini kontrol et",
+                "command": "envanter"
+            },
+            "4": {
+                "description": "Eşya satmak için pazara bir eşya ekleyin",
+                "command": "ilan ekle"
+            },
+            "5": {
+                "description": "Bota hızlı sat komutuyla bir eşya satın",
+                "command": "hızlı-satış"
+            },
+            "6": {
+                "description": "Ne kadar $seth Silvon kazandığını görmek için cüzdanına bak",
+                "command": "cüzdan"
+            },
+            "7": {
+                "description": "Pazardan işinizle ilgili bir ürün satın alın",
+                "command": "pazar satın-al"
+            }
+        }
+    },
+    "level": {
+        "advancedTo": "Seviye atladın:",
+        "level": "{{level}}. Seviye",
+        "message": "🎉 Tebrikler! Seviye atladın ve ödül olarak $seth {{reward}} kazandın."
+    },
+    "recipes": {
+        "title": "Tarifler"
+    },
+    "vote": {
+        "voted": {
+            "title": "Zaten oy verdiniz",
+            "description": "Zaten oy verdiniz ve ödülünüzü aldınız. 12 saat sonra tekrar oy verebilirsiniz."
+        },
+        "vote": {
+            "title": "Oy Ver",
+            "description": "Oy vermek için [tıkla](https://top.gg/bot/{{id}}/vote) ve ödül olarak $classic 1x Klasik Kutu kazan! "
+        },
+        "voteCount": "Toplam {{count}} kez oy verdiniz.",
+        "reward": "Hesabınıza 1 adet $classic Klasik Kutu eklendi."
+    }
+}
